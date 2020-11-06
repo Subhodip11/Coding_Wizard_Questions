@@ -5,7 +5,7 @@ public class question3 {
 		// TODO Auto-generated method stub
         long s=0,m=0;
         int cnt=0;
-        for(long k=2;k<=1000000;k++)
+        for(long k=2;k<1000000;k++)
         {
        	 cnt=1;
        	 long n=k;
