@@ -4,7 +4,11 @@ public class q4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
      Scanner ob=new Scanner(System.in);
+     
+     
+     System.out.println("Enter a number(odd number only) :");
      int n=ob.nextInt();
+  
      int a[][]=new int[n][n];
      
 
@@ -18,14 +22,10 @@ public class q4 {
     		 
     		 cnt++;
     	 }
-    	 if(n%2!=0)
-    	 {if(pos==(n/2)+1)
+   
+    	 if(pos==(n/2)+1)
     		 break;
-    	 }
-    	 else
-    	 { if(pos==n/2)
-    			 break;
-    	 }
+   
     	
     	 pos++;
     	 cnt=1;
@@ -40,14 +40,10 @@ public class q4 {
     		a[i][n/2+j]=cnt;
     		cnt++;
     	 }
-    	 if(n%2!=0)
-    	 {if(pos==(n/2)+1)
+    	 
+    	 if(pos==(n/2)+1)
     		 break;
-    	 }
-    	 else
-    	 {	if(pos==n/2)
-    			break;
-    	 }
+    	 
     	 pos++;
     	 cnt=1;
      }
@@ -64,7 +60,7 @@ public class q4 {
     	System.out.println();
      }
      
-   
+     
      
      
       
